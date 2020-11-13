@@ -1,0 +1,20 @@
+package main
+import  (
+     "fmt"
+     )
+
+  func print( s string) {
+  
+fmt.Println("goroutines")
+}
+
+func main() {
+fmt.Println("GOROUTINES")
+
+
+go print("hello")
+
+
+fmt.Println("GOROUTINES")
+
+}
